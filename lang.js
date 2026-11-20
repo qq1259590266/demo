@@ -30753,7 +30753,15 @@ const _LX_ZH = {
     "En este dispositivo": "本设备",
     "En tu cuenta de CrazyGames": "你的 CrazyGames 账号",
     "Conservar esta": "保留这份",
-    "Exportar": "导出"
+    "Exportar": "导出",
+    "Talando árboles...": "正在伐木……",
+    "Preparando el terreno...": "正在清理土地……",
+    "Levantando el pueblo...": "正在建造村庄……",
+    "Reclutando aldeanos...": "正在招募村民……",
+    "Recogiendo recursos...": "正在收集资源……",
+    "¡El pueblo está listo!": "村庄准备好了！",
+    "Error al cargar recursos.": "资源加载失败。",
+    "Preparando...": "准备中……"
 };
 const _LX_ZH_RE = [
     [new RegExp("^(\\d+) casas al alcance$", ""), "$1 户在范围内"],
