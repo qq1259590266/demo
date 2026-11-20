@@ -6402,9 +6402,9 @@ async function preloadAssets() {
     let _bootLang;
     try {
         const _saved = JSON.parse(localStorage.getItem('fn_settings') || '{}').lang;
-        _bootLang = _saved || _browserLangCode();
+        _bootLang = _saved || 'zh';   // 汉化版：没有存档语言时，加载提示也用中文
     } catch (e) {
-        _bootLang = _browserLangCode();
+        _bootLang = 'zh';
     }
     const _L = {
         trees:     _lxL(_bootLang, 'Talando árboles...', 'Chopping trees...', 'Derrubando árvores...', 'Abattage des arbres...', 'Abbattendo alberi...', 'Bäume fällen...', 'Wycinanie drzew...', 'Ağaçlar kesiliyor...', 'Bomen kappen...', 'Menebang pohon...'),

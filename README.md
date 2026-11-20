@@ -4,6 +4,8 @@
 
 本目录是原版 <https://forestnothing.jcbdev.com/play/> 的**完整离线副本 + 简体中文汉化**。
 
+**在线版：<https://qq1259590266.github.io/demo/>**（GitHub Pages，源码仓库 <https://github.com/qq1259590266/demo>）
+
 ![游戏预览](preview.png)
 
 ## 运行
